@@ -1,3 +1,20 @@
 # Деплой приложения на сервер с использованием pm2
 
-Стартеркит проекта по автоматизации деплоя фронтенда и бэкенда при помощи pm2 (pm2 deploy)
+Проект Mesto - Интерактивная страница, на которую можно добавлять фотографии, удалять их и ставить лайки.
+
+IP-адрес: 51.250.46.222
+Backend: https://api.mesto-veradgt.nomorepartiesco.ru
+Frontend: https://mesto-veradgt.nomorepartiesco.ru
+
+В проекте использованы технологии:
+Фронтэнд
+- БЭМ
+- Flex
+- Grid
+- ООП
+Бэкэнд
+- Node.js
+- Typescript
+- Mongodb
+- ODM Mongoose
+- PM2
