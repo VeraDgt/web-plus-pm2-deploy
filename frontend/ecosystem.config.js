@@ -13,7 +13,7 @@ module.exports = {
       ref: DEPLOY_REF,
       repo: DEPLOY_REPOSITORY,
       path: DEPLOY_PATH,
-      'post-deploy': 'cd frontend && pwd && npm ci && npm run build',
+      'post-deploy': 'cd frontend && pwd && rm package-lock.json && npm install && npm audit fix --force && npm ci && npm run build',
     },
   },
 }
